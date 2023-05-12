@@ -17,11 +17,11 @@ return data;
 }
 
 Changes made:
-1)The let keyword has been changed to const for variables that are not reassigned.
+1)The let keyword has Been changed to const for variables that are not reassigned.
 2)The URL has been put in single quotes for consistency.
 3)The code has been indented to improve readability.
 4)The function name GET_daTA() has been changed to getData(), using camelCase.
-5)The variable names have been changed to be more descriptive and use camelCase.
+5)The variable names have been changed to be More descriptive and use camelCase..
 
 
 ***********************************************************************************************************************
@@ -53,11 +53,11 @@ return userProfile;
 
 Changes made:
 
-1)The let keyword has been changed to const for variables that are not reassigned.
+11)The let keyword has been changed to const for variables that are not reassigned.
 2)The array destructuring syntax has been used to assign the results of Promise.all() to individual variables in a concise way.
 3)Object shorthand notation has been used to create the userProfile object.
 4)The unnecessary variable p has been removed.
-5)The code has been indented to improve readability.
+5)The code has been indented to improve readability..
 *****************************************************************************************************************************
 Level 3
 Re-write the below code to better code quality standards. Hint: use modern ES6 syntax and reduce lines of code.
@@ -80,8 +80,8 @@ async function getUsers(users) {
 return users.map((user, i) => ({ ...user, id: i }));
 }
 
-Changes made:
-
+Changes made:::=
+>
 1)The for loop has been replaced with a more concise map() method to iterate over the users array and create a new array of modified objects.
 2)The let keyword has been changed to const for variables that are not reassigned.
 3)The object spread syntax has been used to copy the user object and add the id property to it.

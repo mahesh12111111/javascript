@@ -4,7 +4,7 @@ const array2 = [2, 3, 4];
 const array3 = [3 , 4, 5];
 
 // const notCommanElements = array1.filter((element) => {
-//   return !array2.includes(element) && !array3.includes(element);
+//   return !array2.includes(element) && !array3.includes(element);mmm
 // });
 // console.log(notCommanElements);
 
